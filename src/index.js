@@ -22,13 +22,14 @@ const App = () => {
   }, []);
   return (
     <div className="poetry-div">
-      <h1 className="title">{poem.title}</h1>
+      <h1>OOOOh my godness. This is sick! -Wyatt</h1>
+      {/* <h1 className="title">{poem.title}</h1>
       <h3 className="author">{poem.author}</h3>
       {poem.lines.map((line, index) => (
         <p key={index} className="line">
           {line}
         </p>
-      ))}
+      ))} */}
     </div>
   );
 };
