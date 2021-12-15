@@ -2,11 +2,11 @@ FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY . .
+COPY package*.json ./
 
 RUN yarn install --production
 
-RUN npm run build
+COPY . .
 
 EXPOSE 3000
 
