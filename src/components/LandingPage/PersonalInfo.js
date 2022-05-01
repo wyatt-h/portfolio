@@ -5,6 +5,7 @@ import Particle from "../Particle";
 const GlobalStyle = styled.section`
   height: 100vh;
   width: 100%;
+  position: relative;
 
   #tsparticles {
     position: fixed;
@@ -34,6 +35,18 @@ const GlobalStyle = styled.section`
     font-size: 4rem;
     font-weight: 800;
   }
+
+  .scroll-hint {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
 `;
 
 const PersonalInfo = () => {
@@ -53,6 +66,7 @@ const PersonalInfo = () => {
           Mathematics and I am transferring to Computer Science.
         </div>
       </div>
+      <div className="row scroll-hint">Scroll to Explore</div>
     </GlobalStyle>
   );
 };

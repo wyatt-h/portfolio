@@ -23,7 +23,7 @@ const Particle = () => {
       options={{
         background: {
           color: {
-            value: "#0d47a1",
+            value: "#e8ccbf",
           },
         },
         fpsLimit: 120,
@@ -51,10 +51,10 @@ const Particle = () => {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#8d99ae",
           },
           links: {
-            color: "#ffffff",
+            color: "#8d99ae",
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -76,7 +76,7 @@ const Particle = () => {
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 750,
             },
             value: 80,
           },
