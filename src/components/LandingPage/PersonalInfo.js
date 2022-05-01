@@ -61,9 +61,15 @@ const PersonalInfo = () => {
       </div>
       <div className="col-md-6 info-block">
         <div className="intro-para">
-          <span className="large-hi">Hi! </span> I'm a freshman student at
-          University of Illinois at Urbana Champaign. My current major is
-          Mathematics and I am transferring to Computer Science.
+          <p>
+            <span className="large-hi">Hi! </span> I'm a freshman student at
+            University of Illinois at Urbana Champaign. My current major is
+            Mathematics but I am transferring to Computer Science.
+          </p>
+          <p>
+            I'm passionate about web development, blockchain, machine learning,
+            and Robotics.
+          </p>
         </div>
       </div>
       <div className="row scroll-hint">Scroll to Explore</div>
