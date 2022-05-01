@@ -68,7 +68,7 @@ const PersonalInfo = () => {
           </p>
           <p>
             I'm passionate about web development, blockchain, machine learning,
-            and Robotics.
+            Robotics, and any other disruptive technology.
           </p>
         </div>
       </div>
