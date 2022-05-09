@@ -36,9 +36,9 @@ const Link = () => {
       <InstgramIcon link="https://www.instagram.com/z.wyatt_h/?hl=en" />
       <GithubIcon link="https://github.com/wyatt-h" />
       <div className="resume-box">
-        <ResumeIcon link="/assests/Resume.pdf" />
+        <ResumeIcon link="/Resume.pdf" />
         <div>
-          <i class="fa-solid fa-arrow-left"></i>
+          <i className="fa-solid fa-arrow-left"></i>
           Resume
         </div>
       </div>
